@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 130px;
+    height: auto;
+}
+
+button {
+    color: white;
+    background-color: #017143;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+body {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 100px 40px 100px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos {
+    width: 600px;
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px
+}
+
+.imagens {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+    overflow: visible;
+    position: relative;
+    min-height: 300px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.circulo {
+    background-color: #017143;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    clip-path: circle(500px at 100% 85%);
+
+
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+
+
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
+}
+
+.copo {
+    width: 550px;
+    position: absolute;
+    right: -60px;
+    top: -70px;
+    transform: translateX(40px);
+    transition: transform 0.3s ease;
+
+
+
+}
+
+button:hover {
+    background-color: #0ba238;
+}
